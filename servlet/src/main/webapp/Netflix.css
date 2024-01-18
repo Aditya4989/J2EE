@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+		*{
+           padding: 0px;
+           margin: 0px;
+           box-sizing: border-box;
+        }
+        body{
+            /* height: 1200px; */
+            width: 100%;
+            margin-top: 50px;
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        }
+        #parent{
+            /* height: 1200px; */
+            width: 100%;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* display: flex; */
+            border-radius: 4px;
+        }
+        .child{
+            width: 450px;
+            height: 600px;
+            padding: 60px 68px 40px 68px;
+            margin: 0 auto;
+            background-color: rgba(0,0,0,0.75);
+            /* color: rgb(51,51,51); */
+            display: flex;
+            flex-direction: column;
+            font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            border: 4px;
+            border-radius: 4px;
+        }
+        h1{
+            color: white;
+            font-size: 32px;
+            margin: 0px 0px 28px;
+        }
+        #email_Mno{
+               width: 314px;
+               height: 50px;
+               background-color: #666666;
+               /* color: rgb(255,255,255); */
+               font-size: 16px;
+               line-height: 50px;
+               padding-left: 20px;
+               color: #fff;
+               border-radius: 4px;
+        }
+        #pass{
+            width: 314px;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 20px;
+            color: #fff;
+            background-color: #666666;
+            font-size: 16px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+        #signin{
+            width: 314px;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 20px;
+            color: #fff;
+            background-color: red;
+            font-size: 16px;
+            margin-top: 25px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        #label1{
+            color:#fff;
+        }
+        #label2{
+            color:#fff;
+            margin-left: 100px;
+        }
+        #label3{
+            color:#fff;
+
+
+        }
+        #label4{
+            color:#fff;
+        }
+        #label5{
+            color:#fff;
+        }
